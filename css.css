@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  /*-----------------------body style--------------------*/
+  body {
+    background: #6b6565;
+    color: #89899b;
+    font-family: "Open Sans", sans-serif;
+text-align:center
+  }
+  /*-----------------------h2 style--------------------*/
+  h2 {
+   
+    color: #f7fff7;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:center ;
+    
+    
+  }
+  h2:hover{
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  }
+  /*-----------------------a style--------------------*/
+  a {
+    color: #f3f3f3;
+    text-decoration: none;
+    line-height: 40px;
+    
+  }
+  a:hover{
+    transition: all 0.5s;
+    color: #89899b;
+  }
+  /*-----------------------Login style--------------------*/
+  .login {
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    margin-left: -175px;
+    text-align: center;
+  }
+  /*-----------------------input text style--------------------*/
+  input[type="text"], input[type="password"] {
+    width: 350px;
+    padding: 20px 0px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #435160;
+    outline: none;
+    color: #cecece;
+    font-size: 16px;
+  }
+  input[type=checkbox] {
+    display: none;
+  }
+  /*-----------------------label style--------------------*/
+  label {
+    display: block;
+    position: absolute;
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 3px solid #435160;
+  }
+  /*-----------------------Check Box style--------------------*/
+  #agree:checked ~ label[for=agree] {
+    background: #45ff4285;
+  }
+  /*-----------------------inpput Submit style--------------------*/
+  input[type="submit"] {
+    background: #1FCE6D;
+    border: 0;
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    border: none;
+    
+  }
+  input[type="submit"]:hover {
+    background: #16aa56;
+    animation-name: shake;
+  }
+  /*-----------------------a style--------------------*/
+  .forgot {
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .forgot:hover {
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    color: #6D7781;
+  }
+  /*-----------------------input Check box style--------------------*/
+  .agree {
+    padding: 30px 0px;
+    font-size: 12px;
+    text-indent: 25px;
+    line-height: 15px;
+  }
+  /*-----------------------body style--------------------*/
+  ::-webkit-input-placeholder {
+    color: #435160;
+    font-size: 12px;
+  }
+  /*-----------------------body style--------------------*/
+  .animated {
+    animation-fill-mode: both;
+    animation-duration: 1s;
+  }
+  /*-----------------------body style--------------------*/
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(10px);
+    }
+  }
+  /*-----------------------:D:D:D:D:D:D:D--------------------*/
+
+
+  .cd{
+    padding: 10px;
+  }
+    
+  body{
+    background: #333 url('img/c.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+::placeholder {
+  color: #fff
+  ;
+}
+
+input:focus::-webkit-input-placeholder {
+  transition: all 0.5s ;
+  color: rgb(110, 106, 106);
+  transition: all 0.5s ;
+}
+
+p{
+  margin-top: 330px;
+  font-size: 15px;
+  color: #a6a6b1;
+}

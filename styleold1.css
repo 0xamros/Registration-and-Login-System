@@ -1,0 +1,108 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+* {
+  margin: auto;
+  padding: 0px;
+}
+body {
+height: calc(144vh - 8em);
+padding-top: 21px;
+  font-size: 155%;
+  font-family: 'Cairo', sans-serif;
+background-image: url('1.jpg');
+background-repeat: no-repeat;
+      background-size: cover;
+.p {text-align: center;}
+
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: fit-content;
+  margin: 0px auto;
+  padding: 20px;
+  border: 19px outset rgba(28,110,164,0.79);
+  background: white;
+  border-radius: 33px 33px 33px 33px;
+
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+position: center;
+}
+.input-group label {
+  display: block;
+  text-align: center;
+  margin: 3px;
+}
+.input-group p0 {
+text-align: center;
+font-size:80%;
+height: calc(14vh - 8em);
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.p {text-align: center;}
+h2 {
+   
+    color: #f7fff7;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:center ;
+.login {
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    margin-left: -175px;
+    text-align: center;
+  }
+.capa {
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    margin-left: -175px;
+    text-align: center;
+  }

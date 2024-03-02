@@ -1,0 +1,60 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+/* Global */
+html {
+      min-height: 100%;
+      overflow: hidden;
+}
+
+body {
+      height: calc(100vh - 8em);
+      padding-top: 21px;
+      color: rgb(255, 255, 255);
+      font-family: 'Cairo', sans-serif;
+      background-image: url('1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.line {
+      position: relative;
+      letter-spacing: 1px;
+      width: 1em;
+      margin: 0 auto;
+ 
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+      animation: typewriter 2s steps(30) 1s 1 normal both,
+      blinkTextCursor 500ms steps(30) infinite normal;
+}
+
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 12em;
+      }
+}
+
+
+span{
+    color: rgb(214, 42, 42);
+}
+/****************************************************/
+
+h3{
+    text-align: center;
+    font-size: 23px;
+    line-height: 17px;
+    margin-top:-1px;
+}
